@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movies>
-<movie>
-    <title>Dr No</title>
-    <actor>Sean Connery</actor>
-    <start_time>9</start_time>
-    <end_time>11</end_time>
-  </movie>
-  <movie>
+  <channel>
     <title>Thunderball</title>
     <actor>Sean Connery</actor>
     <start_time>11</start_time>
     <end_time>13</end_time>
-  </movie>
-  <movie>
+  </channel>
+  <channel>
     <title>Moonraker</title>
     <actor>Roger Moore</actor>
     <start_time>9</start_time>
     <end_time>11</end_time>
-  </movie>
-  <movie>
+  </channel>
+  <channel>
     <title>GoldenEye</title>
     <actor>Pierce Brosnan</actor>
     <start_time>9</start_time>
     <end_time>11</end_time>
-  </movie>
-  <movie>
-    <title>Tomorrow Never Dies</title>
-    <actor>Pierce Brosnan</actor>
+  </channel>
+  <channel>
+    <title>Casino Royale</title>
+    <actor>Daniel Craig</actor>
     <start_time>13</start_time>
     <end_time>15</end_time>
-  </movie>
+  </channel>
 </movies>
