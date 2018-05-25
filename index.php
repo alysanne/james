@@ -64,43 +64,6 @@
 </table>
         
 
-<<<<<<< HEAD
-$filename = 'Movies.xml';
-
-$xmlFile = simplexml_load_file($filename) or die("Error loading XML file.\n");
-
-foreach ($xmlFile->children() as $movie) {
-
-    $movies[] = $movie;
-    foreach ($movie as $key => $value) {
-        echo ucwords($key), ": $value", PHP_EOL;
-         echo ucwords($key), ': ', $movie->$key, PHP_EOL;
-    }
-    echo PHP_EOL;
-}
-
-var_dump($movies);
-?>
-
-<html>
-    <table>
-        <tr>
-            <td>Channel</td>
-            <td>Hours</td>
-        </tr>
-
-        <?php
-        echo "hello";
-        foreach($movies as $movie) {
-            echo '<tr>';
-            echo '<td>', $movie->actor, '</td>';
-            echo '<td>', $movie->title, '</td>';
-            echo '</tr>';
-        }
-        ?>
-    </table>
-</html>
-=======
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -108,4 +71,4 @@ var_dump($movies);
 
     </body>
 </html>
->>>>>>> Add files
+
